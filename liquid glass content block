@@ -1,0 +1,9 @@
+/* liquid glass content block */
+#block-id,{
+background: inherit!important;
+background-color: rgba(255, 255, 255, .3)!important;
+backdrop-filter: blur(5px)!important;
+border:0px solid #fff;
+padding: 5px;
+border-radius:10px;
+}
