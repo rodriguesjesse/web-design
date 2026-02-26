@@ -1,0 +1,10 @@
+// Divider Lines Between Folder Links //
+
+.header-nav .header-nav-item--folder .header-nav-folder-content .header-nav-folder-item { 
+  padding: 10px 0px; 
+  border-bottom: 1px solid #000; 
+} 
+
+.header-nav .header-nav-item--folder .header-nav-folder-content .header-nav-folder-item:last-child { 
+  border-bottom: none !important;
+}
