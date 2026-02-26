@@ -1,0 +1,12 @@
+// SHOW TEXT WITH HOVER //
+
+@media only screen and (min-width: 640px){
+#block-yui_3_17_2_1_1770160839415_4235 {
+opacity: 0;
+ transition: opacity 0s
+}
+#block-yui_3_17_2_1_1770160839415_4235:hover {
+opacity: 1;
+transition: opacity 1s
+}
+}
