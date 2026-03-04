@@ -1,6 +1,20 @@
-// SHOW TEXT WITH HOVER //
+//Show Text With Hover - Desktop//
 
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 641px){
+#block-id {
+opacity: 0;
+ transition: opacity 0s
+}
+#block-id:hover {
+opacity: 1;
+transition: opacity 1s
+}
+}
+
+
+//Show Text With Hover - Mobile//
+
+@media only screen and (max-width: 640px){
 #block-id {
 opacity: 0;
  transition: opacity 0s
